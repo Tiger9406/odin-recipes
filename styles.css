@@ -3,6 +3,7 @@
 *{
     color: blueviolet;
     background-color:black;
+    font-family:"Lucida Console", "Courier New", monospace;
 }
 
 .special_class{
@@ -14,3 +15,10 @@
     background-color: green;
 }
 
+.section{
+    font-size: 34px;
+}
+
+.optional{
+    color: gray;
+}
