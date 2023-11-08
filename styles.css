@@ -1,0 +1,13 @@
+* {
+    color:white;
+}
+
+.special_class{
+    color: darkblue;
+}
+
+/* one object can have one id; but use less */
+#id_label{
+    background-color: green;
+}
+
