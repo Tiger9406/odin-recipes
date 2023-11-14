@@ -6,15 +6,21 @@
     font-family:"Lucida Console", "Courier New", monospace;
 }
 
-.special_class{
-    color: darkblue;
-}
 
 /* one object can have one id; but use less */
 #id_label{
     background-color: green;
 }
 
+.blocks{
+    display: flex;
+    /*align-items: flex-end;
+    flex-direction: column;*/
+}
+
+.blocks_both{
+    margin: 40px;
+}
 .section{
     font-size: 34px;
 }

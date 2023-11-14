@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Recipe</title>
     <link rel="stylesheet" href="../styles.css"/>
+    <script src="javascript.js"></script>
     <style>
         li {
             color: white;
@@ -12,37 +13,48 @@
     </style>
 </head>
 <body>
+    <script>
+        console.log("Hello, World!")
+    </script>
     <h1>
         Pizza Recipe
     </h1>
     <img src="pizza.jpg" height="400" width=auto>
-    <h3 class="section">Ingredients</h3>
-    <ul>
-        <li>
-            bread
-        </li>
-        <li>
-            tomatos
-        </li>
-        <li>
-            cheese
-        </li>
-        <li class="optional">
-            <em>Optional:</em> Pepperoni
-        </li>
-    </ul>
-
-    <h3 class="section">Directions</h3>
-    <ol>
-        <li>
-            put tomatos on bread
-        </li>
-        <li class="optional">
-            put cheese on bread (<em>Optional: pepperoni</em>)
-        </li>
-        <li>
-            bake at 400 degrees F for 15 minutes
-        </li>
-    </ol>
+    <div class="blocks">
+        <div class="blocks_both">
+            <h3 class="section">Ingredients</h3>
+            <ul>
+                <li>
+                    bread
+                </li>
+                <li>
+                    tomatos
+                </li>
+                <li>
+                    cheese
+                </li>
+                <li class="optional">
+                    <em>Optional:</em> Pepperoni
+                </li>
+            </ul>
+        </div>
+        
+        <div class="blocks_both">
+            <h3 class="section">Directions</h3>
+            <ol>
+                <li>
+                    put tomatos on bread
+                </li>
+                <li class="optional">
+                    put cheese on bread (<em>Optional: pepperoni</em>)
+                </li>
+                <li>
+                    bake at 400 degrees F for 15 minutes
+                </li>
+            </ol>
+        </div>
+        
+    </div>
+    
 </body>
 </html>
